@@ -2,7 +2,7 @@
 
 function currentTime(date) {
 	var currentDate = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
-	var hours = date.getHours() + 10;
+	var hours = date.getHours();
 	var minutes = date.getMinutes();
 	var ampm = hours >= 12 ? 'pm' : 'am';
 	hours = hours % 12;
